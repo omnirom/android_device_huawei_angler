@@ -17,6 +17,10 @@ TARGET_BOOTANIMATION_SIZE := 960x640
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
+# SELinux
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # Override product naming for Omni
 PRODUCT_NAME := omni_angler
 PRODUCT_BRAND := google
