@@ -24,6 +24,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+# drmservice prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 # Override product naming for Omni
 PRODUCT_NAME := omni_angler
 PRODUCT_BRAND := google
