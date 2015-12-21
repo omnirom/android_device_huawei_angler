@@ -16,6 +16,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Bootanimation
 TARGET_BOOTANIMATION_SIZE := 1080x720
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/huawei/angler/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true

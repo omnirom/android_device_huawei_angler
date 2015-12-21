@@ -31,6 +31,9 @@ AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 # Increase coldboot timeout
 TARGET_INCREASES_COLDBOOT_TIMEOUT := true
 
+# Keymaster - Wait for qseecom to load
+TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+
 # TWRP
 TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
