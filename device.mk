@@ -196,7 +196,7 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
-    nfc_nci.msm8994 \
+    nfc_nci.angler \
     NfcNci \
     Tag
 
