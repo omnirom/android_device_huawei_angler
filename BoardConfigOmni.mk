@@ -16,8 +16,8 @@ TARGET_IGNORE_VENDOR_AUDIO_EFFECTS_CONF := true
 # Enable vendor image symlink
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
-# Keymaster - Wait for qseecom to load
-TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+# Skip keymaster compilation
+TARGET_PROVIDES_KEYMASTER := true
 
 # TWRP
 TW_THEME := portrait_hdpi
