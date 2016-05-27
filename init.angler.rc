@@ -155,7 +155,6 @@ on post-fs-data
     mkdir /data/time/ 0700 system system
 
     # Audio
-    mkdir /data/misc/audio 0770 audio audio
     mkdir /data/audio/ 0770 media audio
 
     # Create folder for perf daemon
