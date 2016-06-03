@@ -19,6 +19,9 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 # Skip keymaster compilation
 TARGET_PROVIDES_KEYMASTER := true
 
+#soundtrigger
+BOARD_SUPPORTS_SOUND_TRIGGER := true
+
 # TWRP
 TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
