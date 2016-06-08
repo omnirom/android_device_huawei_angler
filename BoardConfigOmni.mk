@@ -22,6 +22,9 @@ TARGET_PROVIDES_KEYMASTER := true
 #soundtrigger
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 
+# Increase coldboot timeout
+TARGET_INCREASES_COLDBOOT_TIMEOUT := true
+
 # TWRP
 TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
