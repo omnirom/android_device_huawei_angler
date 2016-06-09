@@ -19,8 +19,6 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 # Skip keymaster compilation
 TARGET_PROVIDES_KEYMASTER := true
 
-#soundtrigger
-BOARD_SUPPORTS_SOUND_TRIGGER := true
 
 # Increase coldboot timeout
 TARGET_INCREASES_COLDBOOT_TIMEOUT := true
