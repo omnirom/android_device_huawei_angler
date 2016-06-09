@@ -21,13 +21,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
-# Supports Camera new API2
+# Camera
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=0 \
     persist.camera.cpp.duplication=false
 
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
+
+# Snapdragon Camera
+PRODUCT_PACKAGES += \
+    SnapdragonCamera
 
 # Override product naming for Omni
 PRODUCT_NAME := omni_angler
