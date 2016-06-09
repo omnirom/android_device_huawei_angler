@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
+# Supports Camera new API2
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1
+
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
