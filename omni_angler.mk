@@ -23,7 +23,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Supports Camera new API2
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.HAL3.enabled=1
+    persist.camera.cpp.duplication=false
 
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
