@@ -19,6 +19,8 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 # Skip keymaster compilation
 TARGET_PROVIDES_KEYMASTER := true
 
+# Needed for VoLTE
+AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
 # Increase coldboot timeout
 TARGET_INCREASES_COLDBOOT_TIMEOUT := true
