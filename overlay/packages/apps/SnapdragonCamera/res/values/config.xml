@@ -14,16 +14,11 @@
 <resources>
     <!-- hide zsl preference and use whatever devices wants -->
     <bool name="pref_camera_zsl_disabled">true</bool>
+    <string name="pref_camera_zsl_default" translatable="false">off</string>
 
     <!-- Restart preview for back camera onPictureTaken -->
     <bool name="back_camera_restart_preview_onPictureTaken">true</bool>
 
     <!-- Restart preview for front camera onPictureTaken -->
     <bool name="front_camera_restart_preview_onPictureTaken">true</bool>
-
-    <!-- Opens back camera using openLegacy() -->
-    <bool name="back_camera_open_legacy">false</bool>
-
-    <!-- Opens front camera using openLegacy() -->
-    <bool name="front_camera_open_legacy">false</bool>
 </resources>
