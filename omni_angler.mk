@@ -4,6 +4,9 @@ include device/huawei/angler/BoardConfigOmni.mk
 # Inherit base AOSP device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
+# include vendor blobs
+$(call inherit-product-if-exists, vendor/huawei/angler/angler-vendor.mk)
+
 # Inherit APNs list
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
