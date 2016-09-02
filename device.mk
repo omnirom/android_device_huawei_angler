@@ -418,17 +418,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Modem debugger
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-ifeq (,$(filter aosp_angler, $(TARGET_PRODUCT)))
-PRODUCT_PACKAGES += \
+#ifeq (,$(filter aosp_angler, $(TARGET_PRODUCT)))
+#PRODUCT_PACKAGES += \
     QXDMLogger
-endif # aosp_angler
+#endif # aosp_angler
 
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/init.angler.diag.rc.userdebug:root/init.angler.diag.rc
+    device/huawei/angler/init.angler.diag.rc.user:root/init.angler.diag.rc
 
 # subsystem ramdump collection
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.ssr.enable_ramdumps=1
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    persist.sys.ssr.enable_ramdumps=1
 else # userdebug eng
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.diag.rc.user:root/init.angler.diag.rc
