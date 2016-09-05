@@ -35,7 +35,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Snapdragon Camera
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
+    SnapdragonCamera \
+    AOSPLinks
 
 # Override product naming for Omni
 PRODUCT_NAME := omni_angler
