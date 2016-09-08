@@ -12,9 +12,9 @@
     "revision": "android-7.0"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_hardware_qcom_camera",
+    "remote": "aosp",
+    "repository": "platform/hardware/qcom/camera",
     "target_path": "hardware/qcom/camera",
-    "revision": "android-7.0"
+    "revision": "refs/tags/android-7.0.0_r4"
   }
 ]
