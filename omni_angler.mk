@@ -37,10 +37,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     SnapdragonCamera
 
-# AOSP vendor links
-PRODUCT_PACKAGES += \
-    AOSPLinks
-
 # Override product naming for Omni
 PRODUCT_NAME := omni_angler
 PRODUCT_BRAND := google
