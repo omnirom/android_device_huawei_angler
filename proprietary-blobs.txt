@@ -40,5 +40,5 @@ lib/libgps.utils.so
 lib/libloc_core.so
 -framework/com.google.widevine.software.drm.jar
 -framework/qcrilhook.jar
--priv-app/GCS/GCS.apk
+-priv-app/GCS/GCS.apk:PRESIGNED
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
