@@ -17,9 +17,9 @@
 
 export VENDOR=huawei
 export DEVICE=angler
-export BUILD=nrd90u
-export FACTORY_URL=https://dl.google.com/dl/android/aosp/angler-nrd90u-factory-7c9b6a2b.zip
-export FACTORY_SHA256=7c9b6a2b91be9cfad51e40cd43a9c82be9829a4af6d581c456802ec41017b4d9
+export BUILD=nbd90x
+export FACTORY_URL=https://dl.google.com/dl/android/aosp/angler-nbd90x-factory-4e17ed23.zip
+export FACTORY_SHA256=4e17ed23bd461960996a32453d2d378ee3ac036b964bef68e5c1df55971a65af
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
