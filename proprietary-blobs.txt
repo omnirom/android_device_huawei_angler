@@ -24,10 +24,6 @@ etc/permissions/qcrilhook.xml
 lib/soundfx/libfmas.so
 lib/libdmengine.so
 lib/libdmjavaplugin.so
-lib/libimscamera_jni.so
-lib/libimsmedia_jni.so
-lib64/libimscamera_jni.so
-lib64/libimsmedia_jni.so
 lib64/libManufacture.so
 etc/permissions/com.google.widevine.software.drm.xml
 lib64/hw/gps.msm8994.so
@@ -41,4 +37,9 @@ lib/libloc_core.so
 -framework/com.google.widevine.software.drm.jar
 -framework/qcrilhook.jar
 -priv-app/GCS/GCS.apk:PRESIGNED
+-priv-app/HotwordEnrollment/HotwordEnrollment.apk:PRESIGNED
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+lib64/libfilterpack_facedetect.so
+lib/libfilterpack_facedetect.so
+lib64/libManufacture.so
+
