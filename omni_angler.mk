@@ -45,10 +45,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.io.scheduler=bfq
 
+# Facelock properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.facelock.black_timeout=700 \
+    ro.facelock.det_timeout=2500 \
+    ro.facelock.rec_timeout=3500 \
+    ro.facelock.est_max_time=600
+
 # Override product naming for Omni
 PRODUCT_NAME := omni_angler
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 6p
+PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
