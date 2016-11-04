@@ -411,4 +411,7 @@
          com.android.internal.os.DeviceKeyHandler interface. -->
     <string name="config_deviceKeyHandlerClass" translatable="false">org.omnirom.device.KeyHandler</string>
 
+    <!-- enable night light -->
+    <bool name="config_nightDisplayAvailable">true</bool>
+
 </resources>
