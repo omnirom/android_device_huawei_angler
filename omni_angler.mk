@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.io.scheduler=bfq
+    sys.io.scheduler=noop
 
 # Facelock properties
 PRODUCT_PROPERTY_OVERRIDES += \
