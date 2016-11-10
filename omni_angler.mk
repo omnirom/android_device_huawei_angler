@@ -60,5 +60,5 @@ PRODUCT_MANUFACTURER := Huawei
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="google/angler/angler:7.0/NBD90X/3254009:user/release-keys" \
-    PRIVATE_BUILD_DESC="angler-user 7.0 NBD90X 3254009 release-keys"
+    BUILD_FINGERPRINT="google/angler/angler:7.0/NBD91K/3318877:user/release-keys" \
+    PRIVATE_BUILD_DESC="angler-user 7.0 NBD91K 3318877 release-keys"
