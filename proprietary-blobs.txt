@@ -42,4 +42,5 @@ lib/libloc_core.so
 lib64/libfilterpack_facedetect.so
 lib/libfilterpack_facedetect.so
 lib64/libManufacture.so
-
+lib/libtinyxml.so
+lib64/libtinyxml.so

@@ -37,7 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
-# Snapdragon Camera
+# Omni Stuff 
 PRODUCT_PACKAGES += \
     AnglerParts
 
