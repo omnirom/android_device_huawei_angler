@@ -39,7 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Snapdragon Camera
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
+    AnglerParts
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
