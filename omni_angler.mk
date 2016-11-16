@@ -60,5 +60,6 @@ PRODUCT_MANUFACTURER := Huawei
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="google/angler/angler:7.0/NBD91K/3318877:user/release-keys" \
-    PRIVATE_BUILD_DESC="angler-user 7.0 NBD91K 3318877 release-keys"
+    BUILD_FINGERPRINT="google/angler/angler:7.1.1/NPF10C/3347772:user/release-keys" \
+    PRIVATE_BUILD_DESC="angler-user 7.1.1 NPF10C 3347772 release-keys" \
+    BUILD_ID=NPF10C
