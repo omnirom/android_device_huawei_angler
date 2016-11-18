@@ -39,7 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Omni Stuff 
 PRODUCT_PACKAGES += \
-    AnglerParts
+    NexusParts
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
