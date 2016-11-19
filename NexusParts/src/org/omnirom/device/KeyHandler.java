@@ -17,36 +17,23 @@
 */
 package org.omnirom.device;
 
-import android.app.ActivityManagerNative;
-import android.app.NotificationManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.ContentObserver;
-import android.hardware.camera2.CameraAccessException;
-import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.media.IAudioService;
-import android.media.AudioManager;
-import android.media.session.MediaSessionLegacyHelper;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
-import android.os.RemoteException;
-import android.os.ServiceManager;
-import android.os.SystemClock;
-import android.os.UserHandle;
 import android.provider.Settings;
-import android.provider.Settings.Global;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.WindowManagerGlobal;
 
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
@@ -161,8 +148,6 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     private void handleKey(int scanCode) {
-        switch(scanCode) {
-        }
     }
 
     @Override
