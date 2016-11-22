@@ -17,9 +17,9 @@
 
 export VENDOR=huawei
 export DEVICE=angler
-export BUILD=npf10c
-export FACTORY_URL=http://storage.googleapis.com/androiddevelopers/shareables/preview/angler-npf10c-factory-234c063f.zip
-export FACTORY_SHA256=234c063f8d1bee2a6204111c887264fb7dbea0d9700f5c384019b195acd5f34b
+export BUILD=npf26f
+export FACTORY_URL=http://storage.googleapis.com/androiddevelopers/shareables/preview/angler-npf26f-factory-0cd1829d.zip
+export FACTORY_SHA256=0cd1829d2470a9ca1b78d168e2b9c63b3dd02fa077d37c3624b2bab727333118
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
