@@ -174,7 +174,6 @@ PRODUCT_PACKAGES += \
 
 USE_XML_AUDIO_POLICY_CONF := 1
 PRODUCT_PACKAGES += \
-    audio.primary.msm8994 \
     audio.a2dp.default \
     audio.usb.default \
     audio.r_submix.default \

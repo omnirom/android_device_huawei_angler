@@ -44,3 +44,5 @@ lib/libfilterpack_facedetect.so
 lib64/libManufacture.so
 lib/libtinyxml.so
 lib64/libtinyxml.so
+lib/hw/audio.primary.msm8994.so
+lib64/hw/audio.primary.msm8994.so
