@@ -26,6 +26,9 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 # Skip keymaster compilation
 TARGET_PROVIDES_KEYMASTER := true
 
+#QC time services
+BOARD_USES_QC_TIME_SERVICES := true
+
 # Needed for VoLTE
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
