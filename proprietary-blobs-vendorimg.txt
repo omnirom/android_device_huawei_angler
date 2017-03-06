@@ -25,3 +25,6 @@ lib64/libimsmedia_jni.so
 lib64/libimsmedia_jni.so:app/ims/lib/arm64/libimsmedia_jni.so
 lib/libimscamera_jni.so
 lib/libimsmedia_jni.so
+-lib/libtime_genoff.so
+-lib64/libtime_genoff.so
+-app/TimeService/TimeService.apk
