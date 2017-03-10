@@ -35,6 +35,9 @@ AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 # Increase coldboot timeout
 TARGET_INCREASES_COLDBOOT_TIMEOUT := true
 
+# not really for recovery... but healthd still uses it
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+
 # TWRP
 TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
