@@ -201,6 +201,14 @@ public class KeyHandler implements DeviceKeyHandler {
         return false;
     }
 
+    @Override
+    public Intent isActivityLaunchEvent(KeyEvent event) {
+        if (event.getAction() != KeyEvent.ACTION_UP) {
+            return null;
+        }
+        return null;
+    }
+
     private void onDisplayOn() {
         if (mUseProxiCheck) {
             if (DEBUG) Log.d(TAG, "Display on");
