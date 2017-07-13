@@ -15,9 +15,15 @@
      limitations under the License.
 -->
 <resources>
-  <string name="advanced_settings">Caratteristiche del dispositivo</string>
-  <string name="music_title_head">Musica</string>
-  <string name="music_summary_head">Disegna un II per riprodurre / mettere in pausa la musica e \u003C / \u003E per cambiare traccia</string>
-  <string name="proxi_summary_head">Controllare il sensore di prossimità per gesti di movimento</string>
-  <string name="proxi_title_head">Controllo di prossimità</string>
+  <string name="app_name">Enhetsfunktioner</string>
+  <string name="camera_title_head">Kamera</string>
+  <string name="camera_summary_head">Rita en cirkel för att starta kameran</string>
+  <string name="torch_title_head">Ficklampa</string>
+  <string name="torch_summary_head">Rita ett V för att växla ficklampa på/av</string>
+  <string name="category_vibrator">Vibrator</string>
+  <string name="vib_strength_title_head">Styrka</string>
+  <string name="vib_strength_summary_head">Definiera styrkan på vibratorn</string>
+  <string name="vib_test">Test</string>
+  <string name="advanced_settings">Enhetsfunktioner</string>
+  <string name="music_title_head">Musik</string>
 </resources>
