@@ -60,6 +60,6 @@ PRODUCT_MANUFACTURER := Huawei
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="google/angler/angler:7.1.2/N2G48B/4073501:user/release-keys" \
-    PRIVATE_BUILD_DESC="angler-user 7.1.2 N2G48B 4073501 release-keys" \
-    BUILD_ID=N2G48B
+    BUILD_FINGERPRINT="google/angler/angler:7.1.2/N2G48C/4104010:user/release-keys" \
+    PRIVATE_BUILD_DESC="angler-user 7.1.2 N2G48C 4104010 release-keys" \
+    BUILD_ID=N2G48C
