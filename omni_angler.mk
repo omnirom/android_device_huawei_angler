@@ -38,7 +38,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
 # Omni Stuff 
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     NexusParts
 
 # IO Scheduler
